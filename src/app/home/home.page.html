@@ -1,27 +1,45 @@
 <ion-header>
   <ion-toolbar color="primary">
-    <ion-title>
-      <ion-icon></ion-icon> UDESC
-    </ion-title>
+    <ion-title color="secondary">UDESC</ion-title>
+    <ion-icon size="large" class="ion-align-self-center ion-padding-start" slot="start" src="/assets/icon/logomarca.svg"></ion-icon>
+    <ion-buttons slot="secondary">
+      <ion-button>
+        <ion-icon size="large" color="secondary" name="menu-outline" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
+
   <ion-toolbar color="primary">
     <ion-grid class="justify-center">
-      <ion-text class="lf-pad">Leitor de Código de Barras UDESC</ion-text>
+      <ion-text size="large" class="ion-padding-start" color="secondary">Leitor de Código de Barras UDESC</ion-text>
     </ion-grid>
   </ion-toolbar>
 </ion-header>
-
-<ion-content>
-  <ion-card >
-    <img src="assets/barcode.jpeg" />
-    <ion-card-content>
-      <ion-text>This section shows the demo of how to scan a QRCode or Barcode to get the information</ion-text>
-
-      <ion-button color="success" expand="full" (click)="scan()">Scan code</ion-button>
-    </ion-card-content>
-  </ion-card>
-  <ion-item *ngIf="data">
-    <ion-label position="stacked">Informação lida: </ion-label>
-    <ion-input [value]="data.text" readonly></ion-input>
-  </ion-item>
-</ion-content>
+  
+  <ion-content>
+    <ion-grid class="ion-margin-top">
+      <ion-row class="ion-align-self-center ion-margin-top">
+        <ion-col size="10" class="img">
+          <img class="img" src="assets/placa-patrimonio.svg" />
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-margin-top">
+        <ion-col class="ion-margin-top">
+          <ion-text class="ion-margin-top text-center">Pressione o botão para iniciar a leitura do código de barras seguindo os padrões UDESC</ion-text>
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-margin-top">
+        <ion-col class="ion-margin-top">
+          <ion-button color="secondary" expand="block" (click)="scan()"><p color="secondary">Escanear</p></ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item *ngIf="data">
+            <ion-label position="stacked">Informação lida: </ion-label>
+            <ion-input [value]="data.text" readonly></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
