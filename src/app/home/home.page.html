@@ -1,7 +1,8 @@
 <ion-header class="border">
   <ion-toolbar color="primary">
     <ion-title color="secondary">UDESC</ion-title>
-    <ion-icon size="large" class="ion-align-self-center ion-padding-start" slot="start" src="/assets/icon/logomarca.svg"></ion-icon>
+    <ion-icon size="large" class="ion-align-self-center ion-padding-start" slot="start"
+      src="/assets/icon/logomarca.svg"></ion-icon>
     <ion-buttons slot="secondary">
       <ion-button>
         <ion-icon size="large" color="secondary" name="menu-outline" slot="icon-only"></ion-icon>
@@ -15,31 +16,34 @@
     </ion-grid>
   </ion-toolbar>
 </ion-header>
-  
-  <ion-content>
-    <ion-grid class="ion-margin-top">
-      <ion-row class="ion-align-self-center ion-margin-top">
-        <ion-col size="10" class="img">
-          <img class="img" src="assets/placa-patrimonio.svg" />
-        </ion-col>
-      </ion-row>
-      <ion-row class="ion-margin-top">
-        <ion-col class="ion-margin-top">
-          <ion-text class="ion-margin-top text-center">Pressione o botão para iniciar a leitura do código de barras seguindo os padrões UDESC</ion-text>
-        </ion-col>
-      </ion-row>
-      <ion-row class="ion-margin-top">
-        <ion-col class="ion-margin-top">
-          <ion-button color="secondary" expand="block" (click)="scan()"><p color="secondary">Escanear</p></ion-button>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col>
-          <ion-item *ngIf="data">
-            <ion-label position="stacked">Informação lida: </ion-label>
-            <ion-input [value]="data.text" readonly></ion-input>
-          </ion-item>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-  </ion-content>
+
+<ion-content>
+  <ion-grid class="ion-margin-top">
+    <ion-row class="ion-align-self-center ion-margin-top">
+      <ion-col size="10" class="img">
+        <img class="img" src="assets/placa-patrimonio.svg" />
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-margin-top">
+      <ion-col class="ion-margin-top">
+        <ion-text class="ion-margin-top text-center">Pressione o botão para iniciar a leitura do código de barras
+          seguindo os padrões UDESC</ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-margin-top">
+      <ion-col class="ion-margin-top">
+        <ion-button color="secondary" expand="block" (click)="scan()">
+          <p color="secondary">Escanear</p>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item *ngIf="data">
+          <ion-label position="stacked">Informação lida: </ion-label>
+          <ion-input [value]="data.text" readonly></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
