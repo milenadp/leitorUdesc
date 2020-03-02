@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "leitorUdesc",
+  "appId": "nit.cesfi.udesc.leitor",
+  "appName": "Leitor UDESC",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",

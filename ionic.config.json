@@ -1,7 +1,8 @@
 {
   "name": "leitorUdesc",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
