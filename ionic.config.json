@@ -1,0 +1,7 @@
+{
+  "name": "leitorUdesc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
