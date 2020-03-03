@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.barcodeScanner",
-  "appName": "barcode-scanner",
+  "appId": "udesc.cesfi.nit.leitor",
+  "appName": "Leitor UDESC",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
