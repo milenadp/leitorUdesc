@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
-INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
-INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
-INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
-MERGED from [:barcodescanner-release-2.1.5:] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/44ba4ffd22264b83affde3ec6168c875/AndroidManifest.xml:2:1-14:12
-MERGED from [:CordovaLib] /home/matheusquost/Documentos/Leitor UDESC/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:1-27:12
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+MERGED from [:barcodescanner-release-2.1.5:] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/67469045c83385fa0dc57a46f7b20df3/AndroidManifest.xml:2:1-14:12
+MERGED from [:CordovaLib] /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:1-27:12
 MERGED from [com.android.support:support-v4:27.1.1] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/32a7dcc7897edcf2e1132e19374327f3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.1] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/c8313915eb168d51adb3f31e6a3602b7/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/871a0739904dad3eedfeb9b65b299c63/AndroidManifest.xml:17:1-22:12
@@ -16,125 +16,125 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/matheusquost/.gradle/ca
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b3cbb1f129bb7baa7448e7859a8bb1fb/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bcc85fbe3e73789e21ae43c4590b0adb/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e93ae81edf7d31e635d9712e8c2d7c92/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
-INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
-INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
 	package
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:2:100-132
-		INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:2:100-132
+		INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:2:72-99
-		INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:2:72-99
+		INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
 	android:hardwareAccelerated
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:2:133-191
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:2:133-191
 	android:versionCode
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:2:46-71
-		INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:2:46-71
+		INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
 supports-screens
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
 	android:largeScreens
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
 	android:smallScreens
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
 	android:normalScreens
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
 	android:xlargeScreens
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
 	android:resizeable
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
 	android:anyDensity
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
 uses-permission#android.permission.INTERNET
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:5:5-14:19
-MERGED from [:barcodescanner-release-2.1.5:] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/44ba4ffd22264b83affde3ec6168c875/AndroidManifest.xml:11:5-12:19
-MERGED from [:barcodescanner-release-2.1.5:] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/44ba4ffd22264b83affde3ec6168c875/AndroidManifest.xml:11:5-12:19
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:5:5-14:19
+MERGED from [:barcodescanner-release-2.1.5:] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/67469045c83385fa0dc57a46f7b20df3/AndroidManifest.xml:11:5-12:19
+MERGED from [:barcodescanner-release-2.1.5:] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/67469045c83385fa0dc57a46f7b20df3/AndroidManifest.xml:11:5-12:19
 	android:supportsRtl
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:5:182-208
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:5:182-208
 	android:label
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:5:88-120
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:5:88-120
 	android:hardwareAccelerated
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
 	android:icon
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:5:53-87
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:5:53-87
 	android:networkSecurityConfig
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:5:121-181
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:5:121-181
 activity#udesc.cesfi.nit.leitor.MainActivity
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
 	android:label
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:6:136-173
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:6:136-173
 	android:launchMode
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:6:174-204
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:6:174-204
 	android:windowSoftInputMode
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:6:296-338
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:6:296-338
 	android:configChanges
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:6:19-135
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:6:19-135
 	android:theme
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:6:233-295
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:6:233-295
 	android:name
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:6:205-232
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:6:205-232
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
 	android:label
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
 action#android.intent.action.MAIN
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
 	android:name
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
 	android:name
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
 activity#com.google.zxing.client.android.CaptureActivity
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:12:9-311
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:12:9-311
 	android:clearTaskOnLaunch
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:12:19-51
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:12:19-51
 	android:windowSoftInputMode
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:12:261-308
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:12:261-308
 	android:exported
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:12:114-138
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:12:114-138
 	android:configChanges
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:12:52-113
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:12:52-113
 	android:theme
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:12:202-260
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:12:202-260
 	android:name
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:12:139-201
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:12:139-201
 activity#com.google.zxing.client.android.encode.EncodeActivity
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:13:9-112
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:13:9-112
 	android:label
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:13:19-40
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:13:19-40
 	android:name
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:13:41-109
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:13:41-109
 uses-permission#android.permission.CAMERA
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:15:5-65
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:15:5-65
 	android:name
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:15:22-62
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:15:22-62
 uses-permission#android.permission.FLASHLIGHT
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:16:5-69
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:16:5-69
 	android:name
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:16:22-66
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:16:22-66
 uses-feature#android.hardware.camera
-ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:17:5-84
+ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:17:5-84
 	android:required
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:17:58-81
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:17:58-81
 	android:name
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml:17:19-57
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml:17:19-57
 uses-sdk
-INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
-MERGED from [:barcodescanner-release-2.1.5:] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/44ba4ffd22264b83affde3ec6168c875/AndroidManifest.xml:7:5-9:41
-MERGED from [:barcodescanner-release-2.1.5:] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/44ba4ffd22264b83affde3ec6168c875/AndroidManifest.xml:7:5-9:41
-MERGED from [:CordovaLib] /home/matheusquost/Documentos/Leitor UDESC/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-44
-MERGED from [:CordovaLib] /home/matheusquost/Documentos/Leitor UDESC/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-44
+INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
+MERGED from [:barcodescanner-release-2.1.5:] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/67469045c83385fa0dc57a46f7b20df3/AndroidManifest.xml:7:5-9:41
+MERGED from [:barcodescanner-release-2.1.5:] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/67469045c83385fa0dc57a46f7b20df3/AndroidManifest.xml:7:5-9:41
+MERGED from [:CordovaLib] /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/32a7dcc7897edcf2e1132e19374327f3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/32a7dcc7897edcf2e1132e19374327f3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/c8313915eb168d51adb3f31e6a3602b7/AndroidManifest.xml:20:5-44
@@ -155,13 +155,13 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/matheusquost/.gradle/
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bcc85fbe3e73789e21ae43c4590b0adb/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e93ae81edf7d31e635d9712e8c2d7c92/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/matheusquost/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e93ae81edf7d31e635d9712e8c2d7c92/AndroidManifest.xml:20:5-44
-INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/src/main/AndroidManifest.xml

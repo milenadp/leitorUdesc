@@ -1157,7 +1157,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! /home/matheusquost/Documentos/Leitor UDESC/src/main.ts */
+    /*! /home/matheusquost/Documentos/NiT/leitor-udesc/src/main.ts */
     "./src/main.ts");
     /***/
   }
