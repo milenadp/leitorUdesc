@@ -1,5 +1,5 @@
 {
-  "name": "barcode-scanner",
+  "name": "Leitor UDESC",
   "integrations": {
     "capacitor": {},
     "cordova": {}
