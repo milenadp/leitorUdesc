@@ -1,0 +1,9 @@
+{
+  "appId": "io.ionic.barcodeScanner",
+  "appName": "barcode-scanner",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {},
+  "linuxAndroidStudioPath": "/snap/bin/android-studio"
+}
