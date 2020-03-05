@@ -25,7 +25,7 @@ export class HomePage {
 
   scan() {
     this.data = null;
-    this.barcodeScanner.scan().then(barcodeData => {
+    this.barcodeScanner.scan({ showTorchButton: true, orientation: 'landscape' }).then(barcodeData => {
       console.log('Barcode data', barcodeData);
       this.data = barcodeData;
     }).catch(err => {
