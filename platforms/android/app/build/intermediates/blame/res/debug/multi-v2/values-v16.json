@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/matheusquost/Documentos/Leitor UDESC/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/matheusquost/Documentos/NiT/leitor-udesc/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
                     "source": "/home/matheusquost/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/bcc360c45267b8de8d40acde06bb5574/res/values-v16/values-v16.xml",
