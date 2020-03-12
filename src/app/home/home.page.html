@@ -25,13 +25,16 @@
         </ion-row>
         <ion-row class="ion-margin-top">
             <ion-col class="ion-margin-top">
-                <ion-text class="ion-margin-top text-center">Pressione o botão para iniciar a leitura do código de barras seguindo os padrões UDESC</ion-text>
+                <ion-text class="ion-margin-top text-center">Pressione o botão para iniciar a leitura do código de barras identificador de Centro de Custo</ion-text>
             </ion-col>
         </ion-row>
         <ion-row class="ion-margin-top">
             <ion-col class="ion-margin-top">
                 <ion-button color="secondary" expand="block" (click)="scan()">
                     <p color="secondary">Escanear</p>
+                </ion-button>
+                <ion-button [routerLink]="['/listar-centro-de-custo']" color="secondary" expand="block">
+                    Ir para "Listar Centro de Custo"
                 </ion-button>
             </ion-col>
         </ion-row>

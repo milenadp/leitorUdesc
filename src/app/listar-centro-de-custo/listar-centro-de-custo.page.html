@@ -1,0 +1,36 @@
+<ion-header class="border">
+
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button color="secondary"></ion-back-button>
+        </ion-buttons>
+        <ion-title color="secondary">UDESC</ion-title>
+        <ion-icon size="large" class="ion-padding-end" slot="end" src="/assets/icon/logomarca.svg"></ion-icon>
+    </ion-toolbar>
+
+    <ion-toolbar color="primary">
+        <ion-grid class="justify-center">
+            <ion-text size="large" class="ion-padding-start" color="secondary">Lista Centro de Custo</ion-text>
+        </ion-grid>
+    </ion-toolbar>
+
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <ion-item>
+            <ion-label stacked>display</ion-label>
+            <ion-input #myInput type="text" [(ngModel)]="inputValue"></ion-input>
+        </ion-item>
+        <ion-item>
+            <button ion-button (click)="inputValueToLable()">
+        move value to lable
+        </button>
+        </ion-item>
+        <ion-item>
+            <ion-label>
+                {{lableText}}
+            </ion-label>
+        </ion-item>
+    </ion-list>
+</ion-content>
