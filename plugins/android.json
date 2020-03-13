@@ -29,6 +29,12 @@
     "phonegap-plugin-barcodescanner": {
       "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "io.ionic.barcodeScanner"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "udesc.cesfi.nit.leitor"
+    },
+    "uk.co.workingedge.cordova.plugin.sqliteporter": {
+      "PACKAGE_NAME": "udesc.cesfi.nit.leitor"
     }
   },
   "dependent_plugins": {}

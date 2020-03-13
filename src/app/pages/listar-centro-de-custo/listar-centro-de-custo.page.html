@@ -1,0 +1,80 @@
+<ion-header class="border">
+
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button color="secondary"></ion-back-button>
+        </ion-buttons>
+        <ion-title color="secondary">UDESC</ion-title>
+        <ion-icon size="large" class="ion-padding-end" slot="end" src="/assets/icon/logomarca.svg"></ion-icon>
+    </ion-toolbar>
+
+    <ion-toolbar color="primary">
+        <ion-grid class="justify-center">
+            <ion-text size="large" class="ion-padding-start" color="secondary">Lista Centro de Custo</ion-text>
+        </ion-grid>
+    </ion-toolbar>
+
+</ion-header>
+
+<ion-content padding>
+
+    <ion-segment [(ngModel)]="selectedView">
+        <ion-segment-button value="centroCusto">
+            <ion-label>Centro de Custo</ion-label>
+        </ion-segment-button>
+        <ion-segment-button value="produtos">
+            <ion-label>Produtos</ion-label>
+        </ion-segment-button>
+    </ion-segment>
+
+    <div [ngSwitch]="selectedView">
+        <div *ngSwitchCase="'centroCusto'">
+            <ion-item>
+                <ion-label position="stacked">Qual o nome do Centro de Custo?</ion-label>
+                <ion-input [(ngModel)]="centroCusto.nome" placeholder="Nome do Centro de Custo"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="stacked">Qual o cpodigo de barras do Centro de Custo?</ion-label>
+                <ion-input [(ngModel)]="centroCusto.codigoBarras" placeholder="Código lido..."></ion-input>
+            </ion-item>
+            <ion-button expand="block" (click)="addCentroCusto()">Adicionar Centro de Custo</ion-button>
+
+            <ion-list>
+                <ion-item button *ngFor="let cc of centroCusto" [routerLink]="['/', 'centroCusto', cc.id]">
+                    <ion-label>
+                        <h2>{{ cc.nome }}</h2>
+                        <p>{{ cc.codigoBarras }}</p>
+                    </ion-label>
+                </ion-item>
+            </ion-list>
+        </div>
+
+        <div *ngSwitchCase="'produtos'">
+            <ion-item>
+                <ion-label position="stacked">Nome do Produto</ion-label>
+                <ion-input [(ngModel)]="produto.nome" placeholder="Nome"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="stacked">Centro de Custo Pertencente:</ion-label>
+                <ion-select [(ngModel)]="produto.centroCusto">
+                    <ion-select-option *ngFor="let cc of centroCusto" [value]="cc.id">{{ cc.nome }}</ion-select-option>
+                </ion-select>
+            </ion-item>
+            <ion-item>
+                <ion-label position="stacked">Qual o cpodigo de barras do Produto?</ion-label>
+                <ion-input [(ngModel)]="produto.codigoBarras" placeholder="Código lido..."></ion-input>
+            </ion-item>
+            <ion-button expand="block" (click)="addProduto()">Adicionar Produto</ion-button>
+
+            <ion-list>
+                <ion-item *ngFor="let prod of produtos | async">
+                    <ion-label>
+                        <h2>{{ prod.nome }}</h2>
+                        <p>Centro de Custo: {{ prod.centroCusto }}</p>
+                        <p>Código de Barras: {{ prod.codigoBarras }}</p>
+                    </ion-label>
+                </ion-item>
+            </ion-list>
+        </div>
+    </div>
+</ion-content>

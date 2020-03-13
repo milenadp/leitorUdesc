@@ -3,10 +3,10 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},
+  { path: 'home', loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)},
   {
     path: 'listar-centro-de-custo',
-    loadChildren: () => import('./listar-centro-de-custo/listar-centro-de-custo.module').then( m => m.ListarCentroDeCustoPageModule)
+    loadChildren: () => import('./pages/listar-centro-de-custo/listar-centro-de-custo.module').then( m => m.ListarCentroDeCustoPageModule)
   },
 ];
 
