@@ -1,5 +1,4 @@
 # Aplicativo para LER e armazenar códigos de barras feito com IONIC 
-(Início de pesquisa e desenvolvimento do IONIC por Matheus Quost e Milena Dal Paz)
 
 Utilizando o IONIC, e este é um pequeno começo através de um app que
 lê códigos de barras, ou então Qr codes... aplicativo de patrimônio Udesc.
